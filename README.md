@@ -78,7 +78,7 @@
 
 ###
 
-<p align="left">- Finally, one of the most important parts is modeling the data.<br>- The rule we should pay attention to here is the legibility of the model. Star schema is generally used in PoweBI, but my model has turned into a snowflake schema because of the extra detail tables I need to create. There are some minor differences between these two schemes, let me talk about them a little bit.</p>
+<p align="left">- Finally, one of the most important parts is modeling the data.<br>- The rule we should pay attention to here is the legibility of the model. Star schema is generally used in PoweBI, but my model has turned into a Fact Constellation schema because of the extra detail tables I need to create. And also, I have two fact table (two star) in this model. <br>There are some minor differences between star and snowflake schemes, let me talk about them a little bit.</p>
 
 ###
 
